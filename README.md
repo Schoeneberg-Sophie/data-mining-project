@@ -231,5 +231,5 @@ The count carries information beyond the vendor name for Apple, Cisco and Micros
 - Some variables (CVSS scores, product matches, references) are measured at the snapshot date, not at publication, so the model works with information available after NVD analysis.
 - The 2025 test population differs from the training years because of the missing vendor data (section 1).
 
-### Next Step
-Build the baselines (random ranking, CVSS threshold, EPSS, logistic regression on CVSS components) on the restricted population and evaluate them on the validation years before any complex model.
+### Next Step?
+to-do: Build baselines (random ranking, CVSS threshold, EPSS, logistic regression on CVSS components) on the restricted population and evaluate them on the validation years before any complex model.
