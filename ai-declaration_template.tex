@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+\definecolor{umblue}{RGB}{0,48,86} % University of Mannheim blue
+\titleformat{\section}{\Large\bfseries\color{umblue}}{\thesection}{1em}{}
+\setlist{noitemsep,topsep=2pt}
+
+\begin{document}
+
+\section*{Ehrenwörtliche Erklärung}
+
+Ich versichere, dass ich die beiliegende Bachelor-, Master-, Seminar-, oder
+Projektarbeit ohne Hilfe Dritter und ohne Benutzung anderer als der angegebenen
+Quellen und in der untenstehenden Tabelle angegebenen Hilfsmittel angefertigt
+und die den benutzten Quellen wörtlich oder inhaltlich entnommenen Stellen als
+solche kenntlich gemacht habe. Diese Arbeit hat in gleicher oder ähnlicher Form
+noch keiner Prüfungsbehörde vorgelegen. Ich bin mir bewusst, dass eine falsche
+Erklärung rechtliche Folgen haben wird.
+
+% Declare below which AI tools you used in the process of writing your work,
+% including text, image, code, and data generation.
+%
+% The AI declaration must include at least one an entry for every graded subtask
+% (i.e., where points are specified). The entry should state whether or not you
+% used AI to solve parts of the task. Using AI for things such as language
+% improvements or API search does not count as "Solved with AI", but things such
+% as code gen, writing drafts, or solving math tasks does.
+%
+% Tasks that you (partially or fully) solved with AI will be graded more
+% stringently. So make sure that whenever you use AI, the results are correct.
+% My recommendation is to not use AI to solve the tasks, as this undermines the
+% learning goals of this course and, ultimately, your own education.
+
+\begin{center}
+  \textbf{Declaration of Used AI Tools and LLMs} \\[.3em]
+  \begin{tabularx}{\textwidth}{lclXc}
+    \toprule
+    Task & Solved with AI? & Tool & Purpose & Useful? \\
+    \midrule
+    1.1.1 & Yes & Claude Code &  Understanding parts of equations, (e.g. chain rule/ partial derivative of beta). & yes \\
+    1.1.2 & Yes & Claude Code & Understanding parts of equations, (e.g. chain rule/ partial derivative of beta). Giving hints into the right direction when developing proofs after solving ß0, correcting proactive ideas of the author. & yes \\
+    1.2.1 & No & & & \\
+    1.2.2 & No & Internet websites & & yes\\
+    1.2.3 & No & (see Jupyter Notebook) & & \\
+    2.1 & No & & & \\
+    2.2 & No & & & \\
+    2.3 & No & & & \\
+    \bottomrule
+  \end{tabularx}
+\end{center}
+
+\vspace{2cm}
+\noindent Unterschrift\\
+
+\noindent Mannheim, den 12.09.2026 \hfill
+
+\end{document}
