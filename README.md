@@ -5,6 +5,7 @@ Data Sources: <br>
 [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds) <br>
 *Note: Data (JSON) is too large to be uploaded on Github. Instead, NVD data for each year is compressed in a .zip file. <br>
 For replication of uncompressed data, see dta/NVD_transform.R. Merge files after download.
+* **Alternative Data**: [MITRE Cyber Security CVE](https://github.com/MITRE-Cyber-Security-CVE-Database/mitre-cve-database)
 
 ## Data:
 | year | n | kev_ever | kev_90d | kev_180d | kev_365d | median_days |
